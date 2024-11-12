@@ -27,6 +27,7 @@
       can do the proper transformations on those files.
     */
     "allowImportingTsExtensions": true,
+    "esModuleInterop": false, // or true, doesn't matter
     "paths": {
       "ember-vite-npm/tests/*": [
         "./tests/*"

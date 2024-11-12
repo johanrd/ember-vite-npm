@@ -103,5 +103,9 @@
   "exports": {
     "./tests/*": "./tests/*",
     "./*": "./app/*"
+  },
+  "dependencies": {
+    "@types/sanitize-html": "^2.13.0",
+    "sanitize-html": "^2.13.1"
   }
 }
